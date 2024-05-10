@@ -1,3 +1,4 @@
+require('dotenv').config();
 const Razorpay = require('razorpay');
 
 const apiKey = process.env.RAZORPAY_KEY_ID;
